@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube BlockBlock",
+  "version": "1.0",
+  "description": "Block YouTube Ads Blocker Blocker.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["./youtube.com.js"]
+    }
+  ]
+}
