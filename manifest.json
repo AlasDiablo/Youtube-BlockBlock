@@ -5,7 +5,7 @@
   "description": "Block YouTube Ads Blocker Blocker.",
   "content_scripts": [
     {
-      "matches": ["*://*.youtube.com/*"],
+      "matches": ["*://wwww.youtube.com/*"],
       "js": ["./youtube.com.js"]
     }
   ]
