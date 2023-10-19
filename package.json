@@ -1,0 +1,14 @@
+{
+  "name": "youtube-blockblock",
+  "private": "true",
+  "version": "1.0.1",
+  "description": "Block YouTube Ads Blocker Blocker",
+  "scripts": {
+    "build": "cp README.md ./src/README.md && web-ext build -s src --overwrite-dest && rm ./src/README.md"
+  },
+  "author": "AlasDiablo",
+  "license": "LGPL-3.0",
+  "devDependencies": {
+    "web-ext": "^7.8.0"
+  }
+}
